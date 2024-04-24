@@ -1,18 +1,13 @@
 import Router from "./Router";
 
 
+function App() {
 
-
-
-const App = () => {
-
-    return(
+    return (
         <>
-        
         <Router/>
-        
         </>
     )
 }
 
-export default App;
+export default App

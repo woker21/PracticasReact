@@ -20,7 +20,7 @@ export const Cont = styled.div`
 
     & main{
         
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
