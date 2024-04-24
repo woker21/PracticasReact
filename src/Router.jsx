@@ -7,6 +7,7 @@ import Falacias from './pages/Falacias';
 import Personas from './components/Personas';
 import Crud from './components/Crud';
 
+
 const Router = () => (
     <BrowserRouter>
 <Layout>
