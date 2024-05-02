@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
                         <li><Link to="/falacias">Falacias</Link></li>
                         <li><Link to="personas">Personas</Link></li>
                         <li><Link to="crud">CRUD</Link></li>
+                        <li><Link to="libros">Libros</Link></li>
                         <li><Link to="/ajksdfkjhasdk">Error en la url</Link></li>
                 </ul>
                 </Menu>

@@ -4,6 +4,7 @@ import Page2 from './pages/Page1';
 import Layout from './components/Layaout/Layaout';
 import Products from './pages/Products';
 import Falacias from './pages/Falacias';
+import Libros from './pages/libros';
 import Personas from './components/Personas';
 import Crud from './components/Crud';
 
@@ -17,6 +18,7 @@ const Router = () => (
             <Route path='/falacias' element={<Falacias/>}/>
             <Route path='/personas' element={<Personas/>}/>
             <Route path='/crud' element={<Crud/>}/>
+            <Route path='/Libros' element={<Libros/>}/>
             <Route path="*" element={<div>404</div> } />
         </Routes>
 </Layout>
