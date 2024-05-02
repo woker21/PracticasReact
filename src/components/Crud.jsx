@@ -1,6 +1,5 @@
 import { createItem, deleteItem, getItems, updateItem } from "../App/services/api";
 import { useEffect, useState } from 'react';
-import { FireCrud } from "../styles/crud";
 
 function Crud() {
     const [id, setId] = useState('');
@@ -62,7 +61,7 @@ function Crud() {
 
     return (
         <>
-        <FireCrud>
+        <div>
             <input type="text" placeholder="Name" value={userName} onChange={(e) => setUserName(e.target.value)} />
             <input type="password" placeholder="Password" value={userPassword} onChange={(e) => setUserPassword(e.target.value)} />
             <input type="date" placeholder="Name" value={userDate} onChange={(e) => setUserDate(e.target.value)} />
@@ -99,7 +98,7 @@ function Crud() {
                     ))}
                 </tbody>
             </table>
-        </FireCrud>
+        </div>
         </>
     );
 }
