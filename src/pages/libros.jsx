@@ -1,6 +1,5 @@
 import {auth, signOut, GoogleAuthProvider, signInWithPopup,   db, doc, getDoc,  setDoc, updateDoc } from "../App/services/firebase.js";
 import { useEffect, useState } from 'react';
-import {getLibro, createLibro, deleteLibro, updateLibro} from "../App/services/libros.js"
 
 
 const Libros = () => {
@@ -15,6 +14,7 @@ const Libros = () => {
 
     useEffect(() => {
         queryLibros();
+
         const unsubscribe = auth.onAuthStateChanged(async (user) => {
             setUser(user);
             setShowLogin(!user); // Si hay un usuario, ocultamos las opciones de inicio de sesión
@@ -84,6 +84,8 @@ const Libros = () => {
         setPrice('');
         setUserDate('');
     };
+
+    queryLibros();
 
     return (
         <>
