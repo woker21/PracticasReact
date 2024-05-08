@@ -8,6 +8,7 @@ import Libros from './pages/libros';
 import Personas from './components/Personas';
 import Task from './pages/Task';
 import Crud from './components/Crud';
+import Chat from './pages/Chat';
 
 
 const Router = () => (
@@ -22,6 +23,7 @@ const Router = () => (
             <Route path='/crud' element={<Crud/>}/>
             <Route path='/Libros' element={<Libros/>}/>
             <Route path='/task' element={<Task/>}/>
+            <Route path='/chat' element={<Chat/>}/>
             <Route path="*" element={<div>404</div> } />
         </Routes>
 </Layout>

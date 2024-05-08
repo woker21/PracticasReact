@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
                         <li><Link to="crud">CRUD</Link></li>
                         <li><Link to="libros">Libros</Link></li>
                         <li><Link to="task">Tareas</Link></li>
+                        <li><Link to="chat">Chat</Link></li>
                         <li><Link to="/ajksdfkjhasdk">Error en la url</Link></li>
                 </ul>
                 </Menu>

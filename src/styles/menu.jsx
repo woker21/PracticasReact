@@ -3,13 +3,26 @@ import styled from "styled-components";
 
 export const Menu = styled.div`
     display: flex;
-    
+    border-bottom: 2px solid #303034;
+    margin: 0;
     & ul{
         display: flex;
         justify-content: center;
         width: 100%;
         gap: 50px;
         list-style: none;
+        & li{
+            background-color: #303034;
+            width: 110px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            & a{
+                color: #ffffff;
+            }
+        }
     }
 `;
 

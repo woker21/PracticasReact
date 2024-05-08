@@ -1,3 +1,21 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+body{
+    background-color: #18181C;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}

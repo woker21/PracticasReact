@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, db, collection, doc, addDoc, getDocs } from '../App/services/firebase.js';
+import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, db, collection, addDoc, getDocs } from '../App/services/firebase.js';
 
 
 
@@ -7,7 +7,6 @@ const Task = () => {
     const [user, setUser] = useState(null); // Estado para almacenar el usuario actual
     const [taskName, setTaskName] = useState(''); // Estado para el nombre de la tarea
     const [tasks, setTasks] = useState([]); // Estado para almacenar las tareas del usuario actual
-    const [create, setCreate] = useState(false);
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
     const [showRegister, setShowRegister] = useState(false);
