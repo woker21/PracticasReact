@@ -9,8 +9,9 @@ export const Menu = styled.div`
         display: flex;
         justify-content: center;
         width: 100%;
-        gap: 50px;
+        gap: 20px;
         list-style: none;
+        flex-wrap: wrap;
         & li{
             background-color: #303034;
             width: 110px;
