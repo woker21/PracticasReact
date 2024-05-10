@@ -5,12 +5,14 @@ export const Menu = styled.div`
     display: flex;
     border-bottom: 2px solid #303034;
     margin: 0;
+    justify-content: center;
     & ul{
         display: flex;
         justify-content: center;
-        width: 100%;
-        gap: 50px;
+        width: 70%;
+        gap: 20px;
         list-style: none;
+        flex-wrap: wrap;
         & li{
             background-color: #303034;
             width: 110px;
