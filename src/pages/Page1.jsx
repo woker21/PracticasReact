@@ -8,13 +8,14 @@ const Page2 = () => {
             .then(res => res.json())
             .then(res => setNames(res.results));
     }, []);
-    console.log(names);
+
+
     return (
         <>
             {names.map((character) => (
                 <div key={character.id}>
                     <p>{character.name}</p>
-                    <img src={character.image} alt={character.name} />
+                    <img src={character.image}/>
                     <p>{character.species}</p>
                     <br />
                     <br />
